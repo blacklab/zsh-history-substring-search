@@ -17,26 +17,28 @@ def test_subsequence(query, text):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Fuzzy subsequence search')
-    parser.add_argument('--file', type=argparse.FileType('r'), required=True,
-                        help='file to search')
-    parser.add_argument('query', metavar='Q', help='query')
+    parser.add_argument('query', metavar='Q', help='query', nargs='?',
+                        default=None)
 
     args = parser.parse_args()
 
-    for line in args.file.readlines():
+    if not args.query:
+        sys.exit(0)
+
+    for line in sys.stdin.readlines():
         text = line.strip()
         if test_subsequence(args.query, text):
-            query_rest = args.query
-            for c in text:
-                if query_rest and c == query_rest[0]:
-                    sys.stdout.write("\033[31m")
-                    sys.stdout.write(c)
-                    sys.stdout.write("\033[0m")
-                    query_rest = query_rest[1:]
-                else:
-                    sys.stdout.write(c)
-            sys.stdout.write('\n')
-            sys.stdout.flush()
-
-
-    args.file.close()
+            index = text.split()[0].strip('*')
+            sys.stdout.write("%s " % index)
+          #  query_rest = args.query
+          #  for c in text:
+          #      if query_rest and c == query_rest[0]:
+          #          sys.stdout.write("\033[31m")
+          #          sys.stdout.write(c)
+          #          sys.stdout.write("\033[0m")
+          #          query_rest = query_rest[1:]
+          #      else:
+          #          sys.stdout.write(c)
+          #  sys.stdout.write('\n')
+          #  sys.stdout.flush()
+        sys.stdout.flush()

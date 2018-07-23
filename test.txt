@@ -1,0 +1,1022 @@
+ 2000  sudo dscacheutil -flushcache;sudo killall -HUP mDNSResponder
+ 2001  grep "ugdturner" hosts.txt
+ 2002  grep "theadex" hosts.txt
+ 2003  cd ~/Documents
+ 2004  cp -r scala-demo elastic-codinge-challenge
+ 2005  ls src/main/scala/com
+ 2006  rm -r src/main/scala/com
+ 2007  ls src/test/scala
+ 2008  rm -r src/test/scala/com
+ 2009  vim src/test/scala/SampleTest.scala
+ 2010  sbt test
+ 2011  cat build.sbt| sbt run
+ 2012  sbt console
+ 2013  cat src/main/scala/hw.scala
+ 2014  sbt run
+ 2015  git clone git@github.com:blacklab/algorithms.git
+ 2016  cd algorithms
+ 2017  vim lib/ksum.py
+ 2018  cd Documents/algorithms
+ 2019  cat ../elastic-codinge-challenge/src/main/scala/hw.scala
+ 2020  python lib/ksum.py
+ 2021  git checkout -b ksum
+ 2022  git add lib/ksum.py
+ 2023  git push -u origin ksum
+ 2024  open ~/Movies
+ 2025  open ~
+ 2026  ls EyeTV\ Archive
+ 2027  rm -r EyeTV\ Archive
+ 2028  cd elastic-codinge-challenge
+ 2029  mkdir elastic-exploration
+ 2030  cd elastic-
+ 2031  cd elastic-exploration
+ 2032  mv ~/Downloads/accounts.zip .
+ 2033  mv ~/Downloads/kibana-4.3.1-darwin-x64.tar.gz .
+ 2034  unzip kibana-4.3.1-darwin-x64.tar.gz
+ 2035  unzip accounts.zip
+ 2036  rm accounts.zip
+ 2037  man tar
+ 2038  tar -xvf kibana-4.3.1-darwin-x64.tar.gz
+ 2039  git clone git@github.com:blacklab/renderer.git
+ 2040  ls kibana-4.3.1-darwin-x64
+ 2041  rm -r kibana-4.3.1-darwin-x64.tar.gz
+ 2042  g++ hw.cpp
+ 2043  mv kibana-4.3.1-darwin-x64 kibana
+ 2044  vim kibana/config/kibana.yml
+ 2045  ./kibana/bin/kibana plugin --install elastic/sense
+ 2046  curl -XPOST 'http://0e5d307c2d535b1b88f491b781701191.eu-west-1.aws.found.io:9200/bank/account/_bulk?pretty' --data-binary "@accounts.json"
+ 2047  curl -XPOST 'http://0e5d307c2d535b1b88f491b781701191.eu-west-1.aws.found.io:9200/bank/account/_bulk?pretty' --data-binary "@accounts.json" -u readwrite:x58eb13u6uvrmnkh2q
+ 2048  ./kibana/bin/kibana
+ 2049  vim notes
+ 2050  cd ../elastic-exploration
+ 2051  vim hw
+ 2052  vim hw.cpp
+ 2053  less test.bmp
+ 2054  c++
+ 2055  c++ -v hw.cpp
+ 2056  c++ hw.cpp
+ 2057  ls hw.dSYM
+ 2058  ls hw.dSYM/Contents/Resources/DWARF/hw
+ 2059  less hw.dSYM/Contents/Resources/DWARF/hw
+ 2060  make && ./hw
+ 2061  head hw.
+ 2062  head hw.cpp
+ 2063  head 20 hw.cpp
+ 2064  head 30 hw.cpp
+ 2065  head -30 hw.cpp
+ 2066  c++ -c -std=c++1y -Wall -O0 -g hw.cpp -o hw
+ 2067  chmod +x hw
+ 2068  sudo ./hw
+ 2069  cat Makefile
+ 2070  ./hw
+ 2071  gcov
+ 2072  mv hw.cpp main.coo
+ 2073  mv main.coo main.cpp
+ 2074  rm -r hw.dSYM
+ 2075  rm hw
+ 2076  rm test.
+ 2077  rm test.*
+ 2078  git add .gitignore Makefile main.cpp stb_image_write.h
+ 2079  git checkout -b karsten/save-image
+ 2080  git push -u origin karsten/save-image
+ 2081  vim ma
+ 2082  git checkout -b karsten/raycasting
+ 2083  cat ~/.ssh/known_hosts
+ 2084  cat ~/.ssh/known_hosts | grep nosy
+ 2085  cat ~/.ssh
+ 2086  cat ~/.ssh/config
+ 2087  cat ~/.ssh/id_rsa.pub| pbcopy
+ 2088  git checkout karsten/save-image
+ 2089  git merge origin/dima/save-image
+ 2090  git merge karsten/save-image --squash
+ 2091  git mv stb_image_write.h lib
+ 2092  git merge master
+ 2093  git push -u origin karsten/raycasting
+ 2094  git checkout origin/dima/assimp
+ 2095  ls lib/assimp
+ 2096  git checkout karsten/raycasting
+ 2097  ./renderer && open test.tga
+ 2098  make && ./renderer | head
+ 2099  vim app/assets/stylesheets/tickets.scss
+ 2100  git checkout -b admin
+ 2101  vim Gemfile
+ 2102  export PAYMILL_API_PRIVATE_KEY=''
+ 2103  export PAYMILL_API_PUPLIC_KEY=''
+ 2104  export PAYMILL_API_PUBLIC_KEY=''
+ 2105  ./bin/spring stop
+ 2106  vim app/dashboards/payment_dashboard.rb
+ 2107  rails generate administrate
+ 2108  rails generate --help
+ 2109  rails generate administrate:install
+ 2110  ls app/assets/stylesheets
+ 2111  ls app/assets/
+ 2112  ls -R app/views
+ 2113  ls -R app/dashboards
+ 2114  vim app/dashboards/ticket_dashboard.rb
+ 2115  ls app/controllers
+ 2116  ls app/controllers/admin
+ 2117  ls app/controllers/concerns
+ 2118  ls app/models/concerns
+ 2119  ls app/p
+ 2120  ls app/
+ 2121  ls app/helpers
+ 2122  ls app/m
+ 2123  ls app/models
+ 2124  ls app/views
+ 2125  find . -name "*admin*"
+ 2126  ls ./vendor/bundle/ruby/2.2.0/gems/administrate-0.1.2/app/views/administrate
+ 2127  ls ./vendor/bundle/ruby/2.2.0/gems/administrate-0.1.2/app/views/administrate/application
+ 2128  vim app/controllers/admin/bands_controller.rb
+ 2129  vim app/controllers/admin/application_controller.rb
+ 2130  vim Rakefile
+ 2131  ls app/assets
+ 2132  vim config/routes.rb
+ 2133  ls ./vendor/bundle/ruby/2.2.0/gems/administrate-0.1.2
+ 2134  ls ./vendor/bundle/ruby/2.2.0/gems/administrate-0.1.2/config
+ 2135  ls ./vendor/bundle/ruby/2.2.0/gems/administrate-0.1.2/app/assets
+ 2136  ls ./vendor/bundle/ruby/2.2.0/gems/administrate-0.1.2/app/assets/stylesheets
+ 2137  ls ./vendor/bundle/ruby/2.2.0/gems/administrate-0.1.2/app/assets/stylesheets/administrate
+ 2138  git clone https://github.com/thoughtbot/administrate
+ 2139  cd administrate
+ 2140  rails server
+ 2141  rake -T
+ 2142  rake db:seed
+ 2143  cd ../administrate
+ 2144  ./bin/setup
+ 2145  cat bin/setup
+ 2146  ls config
+ 2147  ls config/locales
+ 2148  ls a
+ 2149  cat ../atf-checkout/db
+ 2150  export RACK_ENV=development
+ 2151  export SECRET_KEY_BASE=development_secret
+ 2152  ls spec
+ 2153  ls spec/example_app
+ 2154  ls spec/example_app/config
+ 2155  less spec/example_app/config/database.yml
+ 2156  bundle exec unicorn -p 3000 -c ./config/unicorn.rb
+ 2157  brew install postgresql
+ 2158  vim spec/example_app/config/database.yml
+ 2159  bundle install
+ 2160  cat circle.yml
+ 2161  bundle exec rake
+ 2162  git checkout spec/example_app/config/database.yml
+ 2163  postgres
+ 2164  postgres --help
+ 2165  rm -r /usr/local/var/postgres/*
+ 2166  initdb /usr/local/var/postgres
+ 2167  postgres -D /usr/local/var/postgres
+ 2168  bundle exec rake db:schema:load
+ 2169  bundle exec rake db:migrate
+ 2170  open test.tga
+ 2171  ./renderer
+ 2172  make && ./renderer
+ 2173  ./renderer 1.0 0.0 0.0 5.0
+ 2174  ./renderer 5.0 0.0 0.0 5.0
+ 2175  ./renderer 10.0 0.0 0.0 5.0
+ 2176  ./renderer 10.0 0.0 1.0 5.0
+ 2177  ./renderer 5.0 0.0 1.0 5.0
+ 2178  ./renderer 5.0 0.0 5.0 5.0
+ 2179  git checkout main.
+ 2180  git checkout main.cpp
+ 2181  git merge --squash karsten/raycasting
+ 2182  make && ./renderer 5.0 0.0 5.0 5.0
+ 2183  make && ./renderer 50w.0 0.0 5.0 5.0
+ 2184  make && ./renderer 50.0 0.0 5.0 5.0
+ 2185  make && ./renderer 5.0 10.0 5.0 5.0
+ 2186  make && ./renderer 5.0 10.0 5.0 2.0
+ 2187  genfiles/test_intersection
+ 2188  cd ../atf-checkout
+ 2189  git checkout Gemfile* app/* config*
+ 2190  git reset
+ 2191  git checkout
+ 2192  git checkout Gemfile Gemfile.lock
+ 2193  git checkout app/models/ticket.rb
+ 2194  git checkout config/routes.rb
+ 2195  rm -r app/controllers/admin
+ 2196  rm -r app/dashboards
+ 2197  vim app/controllers/events_controller.rb
+ 2198  bin/spring --stop
+ 2199  export PAYMILL_API_PRIVATE_KEY=""
+ 2200  export PAYMILL_API_PUBLIC_KEY=""
+ 2201  mkdir app/controllers/admin
+ 2202  ls app/views/tickets
+ 2203  mkdir app/views/admin/events
+ 2204  mkdir -p app/views/admin/events
+ 2205  mkdir -p app/views/admin/tickets
+ 2206  rm app/views/admin/tickets/show.hbs
+ 2207  ls app/views/tickets/
+ 2208  git add app/controllers/admin
+ 2209  git add app/views/admin
+ 2210  git statu
+ 2211  git push -u origin admin:karsten/admi-ticket-list
+ 2212  git checkout origin/raycaster
+ 2213  git checkout -b raycaster
+ 2214  ./raycaster scenes/cornell_box.blend 640
+ 2215  ./raycaster scenes/cornell_box.blend 640 > cornell.pgm
+ 2216  cat cornell.pgm
+ 2217  head cornell.pgm
+ 2218  brew install imagick
+ 2219  brew install imagemagick
+ 2220  cat cornell.pgm | convert - cornell.png
+ 2221  ./raycaster scenes/cornell_box.blend 320 | convert - cornell.png
+ 2222  open cornell.png
+ 2223  mv cornell.png scenes
+ 2224  ./raycaster scenes/cornell_box.mdla 320 | convert - cornell.png
+ 2225  git add README.md scenes/cornell.png
+ 2226  rm test.tga
+ 2227  rm cornell.pgm
+ 2228  git checkout lib/assimp
+ 2229  cd lib/assimp
+ 2230  git merge raycaster
+ 2231  cd ~/atf-ch
+ 2232  cd ~/Documents/atf-checkout
+ 2233  ssh 192.71.151.200/
+ 2234  vim spec/controllers/events_controller_spec.rb
+ 2235  mkdir spec/controllers/admin
+ 2236  bin/rake specs
+ 2237  bin/rake -T
+ 2238  git grep before
+ 2239  git grep ./spec before
+ 2240  grep ./spec before
+ 2241  grep before ./grep
+ 2242  grep before ./spec
+ 2243  grep before ./specs
+ 2244  grep before spec
+ 2245  grep before spec/
+ 2246  grep -r before spec/
+ 2247  grep -r before spec
+ 2248  sqlite3 db/development.sqlite3
+ 2249  echo PAYMILL_API_PRIVATE_KEY
+ 2250  echo $PAYMILL_API_PRIVATE_KEY
+ 2251  export PAYMILL_API_PRIVATE_KEY="48c7b42b17805c43f59d756f6b1a212f"
+ 2252  export PAYMILL_API_PUBLIC_KEY="49335254576d01d72527bc0f976a023e"
+ 2253  bin/spring stop
+ 2254  ./bin/rspec
+ 2255  ssh pi@$PI
+ 2256  ssh http://192.71.151.200/
+ 2257  ssh -i ~/.ssh/id_rsa 192.71.151.200
+ 2258  less ~/.ssh/config
+ 2259  ssh -i ~/.ssh/id_rsa -vv 192.71.151.200
+ 2260  cat ~/.ssh/id_rsa
+ 2261  cat ~/.ssh/id_rsa.pub
+ 2262  scp 192.71.151.200:/home/karsten/.ssh/authorized_keys .
+ 2263  diff authorized_keys ~/.ssh/id_rsa.pub
+ 2264  man diff
+ 2265  vimdiff authorized_keys ~/.ssh/id_rsa.pub
+ 2266  rm authorized_keys
+ 2267  ssh -vv 192.71.151.200
+ 2268  git add spec/cassettes/Payment/transaction_execution/does_not_send_a_second_email_if_it_s_a_second_transaction.yml
+ 2269  git push origin :karsten/admi-ticket-list
+ 2270  vim app/controllers/admin/tickets_controller.rb
+ 2271  mkdir app/helpers/admin
+ 2272  mkdir app/presenters/admin
+ 2273  ls app
+ 2274  ls app/presenters
+ 2275  ls app/presenters/admin
+ 2276  ls app/views/admin
+ 2277  ls app/views/admin/tickets
+ 2278  ls app/views/admin/events
+ 2279  ls app/views/
+ 2280  ls app/views/events
+ 2281  git mv app/views/admin/tickets/index.hbs app/views/admin/tickets/index.html.hbs
+ 2282  ./bin/rails server
+ 2283  vim app/assets/stylesheets/application.css
+ 2284  git add app/helpers/admin
+ 2285  git add app/presenters/admin
+ 2286  git push -u origin admin:karsten/admin
+ 2287  rm spec/cassettes/Payment/*
+ 2288  vim spec/models/payment_spec.rb
+ 2289  git rm -r spec/cassettes/Payment
+ 2290  rm spec/cassettes/Payment/transaction_execution/sends_failed_payment_notification_email.yml
+ 2291  bin/rspec
+ 2292  bin/rails
+ 2293  bin/rails server
+ 2294  git reset --hard 429a23944d5e1
+ 2295  git checkout admin
+ 2296  git diff master 9edfcc06d4b03b0ba81c28c3f4b63a7bc21774b9
+ 2297  git revert 429a23944d5e1
+ 2298  git reset a344ee186c57 --hard
+ 2299  git revert 9edfcc06d4b03b0ba81c28c
+ 2300  git diff master
+ 2301  git push origin admin:karsten/admin
+ 2302  vim app/models/purchase.rb
+ 2303  git checkout -b karsten/lambertian
+ 2304  ls /Users/karsten/Documents/renderer/../../
+ 2305  ls /Users/karsten/Documents/renderer/../../lib
+ 2306  rm -r /Users/karsten/Documents/renderer/../../lib
+ 2307  ls lib/assimp/contrib
+ 2308  ls lib/assimp/contrib/zlib
+ 2309  ls lib/
+ 2310  ls lib/assimp/li
+ 2311  ls lib/assimp/lib
+ 2312  ls genfiles
+ 2313  git push -u origin karsten/lambertian
+ 2314  vim tests/test_lambertian.cpp
+ 2315  git stash apply
+ 2316  git add tests/test_lambertian.cpp
+ 2317  git add lib/lambertian.h
+ 2318  cp raycaster.cpp raytracer.cpp
+ 2319  git add raytracer
+ 2320  git remove --cached
+ 2321  git remove --cached raytracer
+ 2322  git rm --cached raytracer
+ 2323  cp raytracer.cpp raycaster.cpp
+ 2324  ssh 52.29.109.237
+ 2325  ssh root@52.29.109.237
+ 2326  ssh ubuntu@52.29.109.237
+ 2327  ./raytracer scenes/cornell_box.blend 640
+ 2328  make && ./raytracer scenes/cornell_box.blend 640
+ 2329  ./raytracer scenes/cornell_box.blend 32
+ 2330  ./raytracer scenes/cornell_box.blend 650
+ 2331  cat lib/image.h| pbcopy
+ 2332  git add lib/image.h
+ 2333  brew install cling
+ 2334  cling
+ 2335  vim test.cpp
+ 2336  c++ test.cpp
+ 2337  ./a.out
+ 2338  rm test.cpp
+ 2339  git add raycaster.cpp
+ 2340  pow --help
+ 2341  powder --help
+ 2342  poweder
+ 2343  gem install powder
+ 2344  sudo gem install powder
+ 2345  powder
+ 2346  powder stop
+ 2347  powder start
+ 2348  ./raycaster ./scenes/cornell_box.blend 640 | convert - cornell_box.png
+ 2349  ./raycaster ./scenes/cornell_box.blend 32
+ 2350  make clean && make && ./raycaster ./scenes/cornell_box.blend 32
+ 2351  make clean && make && ./raycaster ./scenes/cornell_box.blend 640 | convert - cornell_box.png
+ 2352  make test_lambertian
+ 2353  ls /dev/
+ 2354  ls /Volumes
+ 2355  cd ~/Downloads
+ 2356  cp 5cj977a.iso /Volumes/BIOS/thinkpadbios.iso
+ 2357  ./raycaster scenes/cornell_box.blend 640 | convert - cornell_box.png
+ 2358  make && ./raycaster scenes/cornell_box.blend 640 | convert - cornell_box.png
+ 2359  make && ./raytracer scenes/cornell_box.blend 640 | convert - cornell_box_2.png
+ 2360  open cornell_box_2.png
+ 2361  rm cornell_box_2.png
+ 2362  make && ./raytracer scenes/cornell_box.blend 40
+ 2363  make && ./raytracer scenes/cornell_box.blend 40 | convert - cornell_box.png
+ 2364  make && ./raytracer scenes/cornell_box.blend 640 | convert - cornell_box.png
+ 2365  git pull --rebase
+ 2366  git grep range
+ 2367  rm lib/triangle.h
+ 2368  ./raytracer scenes/cornell_box.blend 640 | convert - cornell_box.png
+ 2369  lldb ./raytracer scenes/cornell_box.blend 640
+ 2370  cd ~/.dotfiles
+ 2371  cd vim
+ 2372  vim vimrc.symlink
+ 2373  git add vimrc.symlink
+ 2374  git commit --ammend
+ 2375  git commit --ammend -m
+ 2376  git commit --amment
+ 2377  git commit --amend
+ 2378  pandoc --help
+ 2379  pandoc -o 2016-01-21_triposo.html 2016-01-21_triposo.md
+ 2380  open 2016-01-21_triposo.html
+ 2381  rm 2016-01-21_triposo.html
+ 2382  pandoc -o 2016-01-21_triposo.pdf 2016-01-21_triposo.md
+ 2383  pandoc -o 2016-01-21_triposo.odt 2016-01-21_triposo.md
+ 2384  open 2016-01-21_triposo.odt
+ 2385  ssh $PI
+ 2386  echo $PI
+ 2387  ssh karstenj@192.71.151.200
+ 2388  cd ~/Documents/BtSync/TestVerschluesselt
+ 2389  echo "Hello World" > test.txt
+ 2390  cd ../Movies
+ 2391  ls .sync
+ 2392  ls -lah .sync
+ 2393  cd .sync/Archive
+ 2394  ssh karsten@192.71.151.200
+ 2395  git checkout raytracer
+ 2396  git checkout raytracer.
+ 2397  git checkout raytracer.cpp
+ 2398  rm -r lib/assimp
+ 2399  rm -fr lib/assimp
+ 2400  rm -r lib/catch
+ 2401  ls vendor/assimp
+ 2402  ls vendor/assimp/lib
+ 2403  find . -name="*.a"
+ 2404  find . -name "*.a"
+ 2405  man make
+ 2406  git add Makefile
+ 2407  cd ~/Dropbox/Bewerbungen/Coverletters
+ 2408  cd Lebenslauf
+ 2409  cp 2015-12-10-elastic-CV.odt 2016-01-21-triposo-CV.odt
+ 2410  open 2016-01-21-triposo-CV.odt
+ 2411  ssh blacklab@taurus.uberspace.de
+ 2412  cd ~
+ 2413  vim .ssh/config
+ 2414  cd portfolio
+ 2415  vim _deploy.sh
+ 2416  c ~/.ssh
+ 2417  cd ~/.ssh
+ 2418  cat id_rsa.pub
+ 2419  vim config
+ 2420  cd ~/Documents/portfolio
+ 2421  git remove -vv
+ 2422  scp -r taurus.uberspace.de:/home/blacklab/html/stuff/files .
+ 2423  mkdir stuff
+ 2424  scp -r taurus.uberspace.de:/home/blacklab/html/stuff/files ./stuff
+ 2425  mkdir wicket
+ 2426  scp -r taurus.uberspace.de:/home/blacklab/html/wicket ./wicket
+ 2427  cd ../Coverletters
+ 2428  cat 2016-01-21_triposo.md| pbcopy
+ 2429  vim 2016-01-21_triposo.md
+ 2430  open Lebenslauf/CV_Karsten_Jeschkies.pdf
+ 2431  rm ~/.ssh/uberspace_blacklab*
+ 2432  rm ~/.ssh/gitlab*
+ 2433  ls ~/.ssh
+ 2434  cd Documents/portfolio
+ 2435  ./_deploy.sh
+ 2436  ssh http://192.168.178.27/
+ 2437  ssh 192.168.178.27
+ 2438  ssh -v 192.168.178.27
+ 2439  ssh -v pi@192.168.178.27
+ 2440  vim raytracer
+ 2441  ./raytracer ./scenes/cornell_box.blend 640 | convert - cornell_box.png
+ 2442  make && ./raytracer ./scenes/cornell_box.blend 640 | convert - cornell_box.png
+ 2443  make && ./raytracer ./scenes/cornell_box.blend 640
+ 2444  ./raytracer
+ 2445  make && ./raytracer ./scenes/colored_cube.blend 32
+ 2446  make && ./raytracer ./scenes/cornell_box.blend 32
+ 2447  ./raytracer ./scenes/colored_cube.blend 640 | convert - cube.png
+ 2448  brew install blender
+ 2449  brew cask install blender
+ 2450  brew uninstall redis
+ 2451  brew uninstall riak
+ 2452  riak
+ 2453  ./raytracer ./scenes/cornell_box.blend 32
+ 2454  git checkout raycaster.
+ 2455  git checkout raycaster.cpp
+ 2456  git checkout -- raytracer.cpp
+ 2457  brew unlink cmake
+ 2458  brew install cmake
+ 2459  cmake -version
+ 2460  open ./scenes/cornell_box.blend
+ 2461  make && ./raytracer ./scenes/colored_cube.blend | convert - cube.png
+ 2462  open cube.png
+ 2463  ./raytracer ./scenes/cornell_box.blend 1080 | convert - cornell_box.png
+ 2464  ./raytracer ./scenes/cornell_box.blend 1080
+ 2465  ./raytracer ./scenes/cornell_box.blend -w 1080 | convert - cornell_box.png
+ 2466  ./raytracer ./scenes/cornell_box.blend| convert - cornell_box.png
+ 2467  cat dna.txt
+ 2468  rm a.out
+ 2469  open sphere.png
+ 2470  ./raytracer ./scenes/sphere.blend | convert - sphere.png
+ 2471  make && ./raytracer ./scenes/cornell_box.blend| convert - cornell_box.png
+ 2472  vim lib/output.h
+ 2473  git checout raytracer.
+ 2474  git checout raytracer.cpp
+ 2475  ./raytracer ./scenes/cornell_box2.blend -w 640
+ 2476  ./raytracer ./scenes/cornell_box.blend -w 100 | convert - cornell_box.png
+ 2477  ./raytracer ./scenes/cornell_box.blend -w 640 | convert - cornell_box.png
+ 2478  ./raytracer ./scenes/cornell_box.blend -w 640 --max-depth=10 | convert - cornell_box.png
+ 2479  ./raytracer ./scenes/cornell_box2.blend -w 640 --max-depth=10 | convert - cornell_box.png
+ 2480  ./raytracer ./scenes/cornell_box2.blend -w 640 --max-depth=1 | convert - cornell_box.png
+ 2481  ./raytracer ./scenes/cornell_box2.blend -w 640 --max-depth=5 | convert - cornell_box.png
+ 2482  git checkout -b karsten/refletance
+ 2483  git checkout -b karsten/reflectance
+ 2484  git branch -d karsten/refletance
+ 2485  git push -u origin karsten/reflectance
+ 2486  ssh taurus.uberspace.de
+ 2487  open scenes/cornell_box.png
+ 2488  ./raytracer ./scenes/cornell_box2.blend -w 640 | convert - cornell_box.png
+ 2489  cat ~/Downloads/bagel.pls
+ 2490  ./raytracer scenes/cornell_box2.blend -w 3840 --max-depth 3 > test.pbm
+ 2491  heat test.pbm
+ 2492  mv scenes/cornell.png scenes/cornell_raycast.png
+ 2493  mv test.png scenes/cornell_raytrace.png
+ 2494  git add README.md scenes/cornell_raytrace.png
+ 2495  git add scenes/cornell_raycast.png
+ 2496  git rm scenes/cornell.png
+ 2497  git add raytracer.cpp
+ 2498  cp raytracer.cpp pathtracer.cpp
+ 2499  ./raycaster ./scenes/cornell_box2.blend 3840 > test.pbm
+ 2500  convert -resize 640x640 -interpolate bicubic test.pbm test.png
+ 2501  open test.png
+ 2502  git submodule update --init
+ 2503  git submodule update --remote --recursive
+ 2504  open ./scenes/cornell_box2.blend
+ 2505  ssh pi@\t192.168.178.27
+ 2506  ssh 192.71.151.200
+ 2507  git diff Makefile
+ 2508  vim lib/intersection.h
+ 2509  vim raytracer.cpp
+ 2510  git add Makefile pathtracer.cpp
+ 2511  vim lib/xorshift.h
+ 2512  git grep pi
+ 2513  git grep " pi "
+ 2514  cd ~/Documents/BtSync/Dropbox/uni/Informatik/ws09\ Computergrafik\ I
+ 2515  cd Schiffeversenken
+ 2516  cd repo/cg-battleships
+ 2517  rm -r .svn
+ 2518  find . -name .svn -exec rm -v {} \;
+ 2519  cd cg-framework2
+ 2520  cd ../repo/cg-battleships
+ 2521  ls -lah karussel
+ 2522  ls -lah res
+ 2523  ls -lah common
+ 2524  find . -name .svn -exec rm -r -v {} \;
+ 2525  ./pathtracer -w 640 ./scenes/cornell_box2.blend
+ 2526  ./pathtracer -w 100 ./scenes/cornell_box2.blend
+ 2527  ./pathtracer -w 100 ./scenes/cornell_box2.blend | convert - cornell_box.png
+ 2528  make && ./pathtracer -w 100 ./scenes/cornell_box2.blend | convert - cornell_box.png
+ 2529  make && ./pathtracer -w 640 ./scenes/cornell_box2.blend | convert - cornell_box.png
+ 2530  make && ./pathtracer -w 640 ./scenes/cornell_box.blend | convert - cornell_box.png
+ 2531  rm scenes/cornell_box2.blend
+ 2532  git checkout -b karsten/pathtracer
+ 2533  git add pathtracer.cpp git add lib/monte_carlo.h lib/xorshift.h
+ 2534  git add lib/monte_carlo.h
+ 2535  git add lib/xorshift.h
+ 2536  git push -u origin karsten/pathtracer
+ 2537  which zsh
+ 2538  tmux ls
+ 2539  chsh -s /bin/zsh
+ 2540  ./raycaster
+ 2541  ./raycaster ./scenes/cornell_box.blend 640 | convert - raycaster.png
+ 2542  open raycaster.png
+ 2543  mv raytracer.cpp main.cpp
+ 2544  make | c++filt
+ 2545  make 2>&1 | c++filt
+ 2546  git diff lib/types.h
+ 2547  make clean && make raytracer
+ 2548  make raytracer | c++filt
+ 2549  make raytracer 2>&1 | c++filt
+ 2550  make clean && make raytracer 2>&1 | c++filt
+ 2551  ./raytracer -h
+ 2552  ./raytracer ./scenes/cornell_box.blend | convert - cornell_box.png
+ 2553  git -u
+ 2554  git add lib/types.cpp
+ 2555  make clean && make pathtracer
+ 2556  git add pathtracer.cpp
+ 2557  git rebase --continue
+ 2558  ./pathtracer ./scenes/cornell_box.blend -w 640 | convert - cornell_box.png
+ 2559  ./pathtracer ./scenes/cornell_box.blend -w 20 | convert - cornell_box.png
+ 2560  ./pathtracer ./scenes/cornell_box.blend -w 100 | convert - cornell_box.png
+ 2561  make raytracer
+ 2562  ./raytracer ./scenes/cornell_box.blend
+ 2563  ./raytracer ./scenes/cornell_box.blend > /dev/null
+ 2564  ./raytracer ./scenes/cornell_box.blend -w 100 > /dev/null
+ 2565  make pathtracer && ./pathtracer ./scenes/cornell_box.blend -w 100 | convert - cornell_box.png
+ 2566  git add trace.h
+ 2567  git rebase master
+ 2568  cd vendor
+ 2569  cd assimp
+ 2570  git checkout f473b17c99ee9330f
+ 2571  vim INSTALL
+ 2572  git checkout a74b321ed181b72ce5b07eab2c5b5f3824c58a3f
+ 2573  less /Users/karsten/Documents/renderer/vendor/assimp/test/gtest/src/gtest-stamp/gtest-configure-err.log
+ 2574  cd /Users/karsten/Documents/renderer/vendor/assimp/test/gtest/src/gtest
+ 2575  cmake clean
+ 2576  cmake --help
+ 2577  rm -r test/gtest
+ 2578  cd tests
+ 2579  git-clean
+ 2580  git clean
+ 2581  git clean -f
+ 2582  rm -fr test/gtest
+ 2583  git checkout 4866191b21f7bddbf4b63bf5b48e1ecaa3d2b549
+ 2584  cd test/gtest
+ 2585  ls src
+ 2586  cat /Users/karsten/Documents/renderer/vendor/assimp/test/gtest/src/gtest-stamp/gtest-configure-err.log
+ 2587  cd vendor/assimp/test/gtest
+ 2588  cd gtest/src
+ 2589  cd gtest
+ 2590  cat README.md
+ 2591  git remote -vv
+ 2592  git remote add github https://chromium.googlesource.com/external/github.com/google/googletest/
+ 2593  git fetch github
+ 2594  git checkout github/master
+ 2595  rm CMakeCache.txt
+ 2596  make -C contrib/zlib
+ 2597  make -C contrib/zlib install
+ 2598  git submodule help
+ 2599  git submodule init
+ 2600  ls li
+ 2601  cat .gitmodules
+ 2602  git submodule update lib/assimp
+ 2603  cmake . -DASSIMP_LIB_INSTALL_DIR=$$(pwd)/../../lib
+ 2604  cmake -DASSIMP_LIB_INSTALL_DIR=$$(pwd)/../../lib
+ 2605  echo $pwd
+ 2606  cat test/gtest/src/gtest/README.md
+ 2607  cmake CMakeLists.txt -DBUILD_SHARED_LIBS=OFF
+ 2608  cd test/gtest/src/gtest/
+ 2609  cd ../../../
+ 2610  pwd
+ 2611  cd contrib/zlib
+ 2612  cmake . -DASSIMP_LIB_INSTALL_DIR=/Users/karsten/Documents/renderer/vendor/assimp/lib
+ 2613  make install
+ 2614  ls test/gtest/src/gtest
+ 2615  ls test/gtest/src/gtest/google
+ 2616  ls test/gtest/src/gtest/googletest
+ 2617  ls test/gtest/src/gtest/googletest/include
+ 2618  vim cmake-modules/AddGTest.cmake
+ 2619  git submodule deinit vendor/assimp
+ 2620  git submodule sync
+ 2621  git submodule deinit -f vendor/assimp
+ 2622  rm -r vendor/assimp
+ 2623  git submodule init vendor/assimp
+ 2624  cd vendor/ass
+ 2625  ls vendor
+ 2626  git submodule update vendor/assimp
+ 2627  git status | head
+ 2628  git reset HEAD --hard
+ 2629  git checkout d393ab11ecb7b538f9b073afcda41e2bfa2689f8
+ 2630  git submodule update
+ 2631  cd ~/
+ 2632  brew cask install intellij-idea
+ 2633  sbt -help
+ 2634  sbt -v
+ 2635  cd Documents
+ 2636  cd marathon
+ 2637  brew install zookeeper
+ 2638  brew install mesos
+ 2639  mkdir -p /Users/karsten/Library/Python/2.7/lib/python/site-packages
+ 2640  echo 'import site; site.addsitedir("/usr/local/lib/python2.7/site-packages")' >> /Users/karsten/Library/Python/2.7/lib/python/site-packages/homebrew.pth
+ 2641  ls -lah
+ 2642  cd ~/Documents/marathon
+ 2643  java -version
+ 2644  zkServer
+ 2645  zkServer start
+ 2646  mesos --help
+ 2647  mesos local --ip=127.0.0.1
+ 2648  ls /usr/local/lib/libmesos.dylib
+ 2649  export MESOS_NATIVE_JAVA_LIBRARY=/usr/local/lib/libmesos.dylib
+ 2650  ps | grep sleep
+ 2651  ps aux | grep sleep
+ 2652  cd Documents/marathon
+ 2653  vim project/build.scala
+ 2654  scala
+ 2655  git grep intWithTimes
+ 2656  git grep times
+ 2657  git grep times -- src/main/scala
+ 2658  git grep "times {" -- src/main/scala
+ 2659  git grep initializeStop -- src/main/scala
+ 2660  sbt
+ 2661  git remote -v
+ 2662  git remote add blacklab https://github.com/blacklab/marathon.git
+ 2663  git fetch blacklab
+ 2664  git push blacklack master:
+ 2665  git push -u blacklab
+ 2666  git checkout blacklab/master -b karsten/kill-tasks
+ 2667  git log master
+ 2668  git cherry-pick 1eaa2cfbf485f7238bcfc2d327e44c8023b241d8
+ 2669  git rebase -i
+ 2670  git rebase c3bfb85a1f65fc -i
+ 2671  git rebase -i c3bfb85a1f65fc
+ 2672  git rebase --abort
+ 2673  git rebase -i be0ce6b1a42341f4bb4dbd0191d388f5bdfa030a
+ 2674  git push -fu blacklab karsten/kill-tasks
+ 2675  git log karsten/kill-tasks
+ 2676  git cherry-pick c6f5ae54a0c0bf58bb2da181a57128ea16e391de
+ 2677  git push -f blacklab karsten/kill-tasks
+ 2678  git push -f blacklab master:karsten/kill-tasks
+ 2679  git checkout blacklab/master -b karsten/master
+ 2680  git reset --hard 4a214d39985fe0384c98a29c1d39ad0ab5977bc9
+ 2681  git push -f blacklab karsten/master:master
+ 2682  git checkout vendor/assimp
+ 2683  git checkout vendor/docopt.cpp
+ 2684  vim .gitmodules
+ 2685  cd vendor/assimp
+ 2687  rm -r assimp
+ 2688  cd ../../
+ 2689  cd renderer
+ 2690  git checkout karsten/pathtracer
+ 2691  git merge karsten/pathtracer
+ 2692  make clen && make test
+ 2693  make clean && make test
+ 2694  cd ~/Downloads/dragon_stand
+ 2695  cat dragonStandRight.conf
+ 2696  ./pathtracer
+ 2697  ./pathtracer ./scenes/stanford_dragon.blend -m 3 -p 1 -t 2 > stanford_dragon.pbm
+ 2698  ./pathtracer ./scenes/stanford_dragon.blend -m 3 -p 64 -t 2 > stanford_dragon.pbm
+ 2699  ls .ssh
+ 2700  cat .ssh/id_rsa.pub
+ 2701  cd Downloads
+ 2702  scp circledast@hazelnut.whatbox.ca:files/Big.Hero.6.2014.1080p.BluRay.x264-SPARKS/Big.Hero.6.2014.1080p.BluRay.x264-SPARKS.mkv .
+ 2703  tmux list
+ 2704  tmux list-sessions
+ 2705  df -h
+ 2706  brew cask update
+ 2707  brew cask --help
+ 2708  rm /usr/local/share/man/man1/brew-cask.1
+ 2709  brew tap --repair
+ 2710  brew update
+ 2711  brew upgrade slack
+ 2712  vim ~/.dotfiles/homebrew/install.sh
+ 2713  brew cask upgrade slack
+ 2714  brew cask update slack
+ 2715  ./pathtracer ./scenes/stanford_dragon.blend -w 600 -d 3 -p 1 -m 1 -t 2 > stanford_dragon.pbm
+ 2716  ./pathtracer ./scenes/stanford_dragon.blend -w 600 -d 3 -p 120 -m 2 -t 2 > stanford_dragon.pbm
+ 2717  ./test_assimp --help
+ 2718  ./test_assimp ./scenes/stanford_dragon.blend
+ 2719  vim test_assimp
+ 2720  make test_assimp
+ 2721  ./test_assimp ./scenes/stanford_dragon.blend | tail
+ 2722  ./test_assimp ./scenes/stanford_dragon.blend > materials.txt
+ 2723  tail -100 materials.txt
+ 2724  vim test_assimp.cpp
+ 2725  rm scenes/stanford_dragon.blend1
+ 2726  rm stanford_dragon.pbm
+ 2727  git checkout -b karsten-dragen#24
+ 2728  git add scenes/stanford_dragon.blend
+ 2729  git push -u origin karsten-dragen#24
+ 2730  ./pathtracer --help
+ 2731  ./pathtracer ./scenes/stanford_dragon.blend -w 600 -a 1.777777 -d 3 -p 1 -m 1 -t 2 > stanford_dragon.pbm
+ 2732  convert stanford_dragon.pbm stanford_dragon.png
+ 2733  sysctl -n hw.ncpu
+ 2734  vim pathtracer.cpp
+ 2735  echo "........................................................................................................"
+ 2736  echo "........................................................................................................" | count
+ 2737  echo "........................................................................................................" | wc
+ 2738  echo "........................................................................................................" | wc -c
+ 2739  echo ........................................................................................................
+ 2740  echo ........................................................................................................ | wc -c
+ 2741  echo .......................................................................................................... | wc -c
+ 2742  echo ........................................................................................................... | wc -c
+ 2743  mv stanford_dragon.png scenes
+ 2744  convert --help
+ 2745  convert scenes/stanford_dragon.png -resize 320x200 -interpolate bicubic stanford_dragon_small.png
+ 2746  open stanford_dragon_small.png
+ 2747  mv stanford_dragon_small.png scenes
+ 2748  git add README.md scenes/stanford_dragon_small.png
+ 2749  git add scenes/stanford_dragon.png
+ 2750  rm test.p*
+ 2751  ls -lah scenes
+ 2752  open scenes/stanford_dragon_cycles.png
+ 2753  git checkout mainline
+ 2754  ./pathtracer -w 300 ./scenes/cornell_box.blend
+ 2755  make pathracer && ./pathtracer -w 300 ./scenes/cornell_box.blend
+ 2756  make pathtracer && ./pathtracer -h
+ 2757  lldb ./pathtracer -w 300 ./scenes/cornell_box.blend
+ 2758  make pathtracer && ./pathtracer -w 300 ./scenes/cornell_box.blend
+ 2759  make pathtracer && ./pathtracer -w 300 ./scenes/cornell_box.blend > /dev/null
+ 2760  git diff test_assimp
+ 2761  git diff test_assimp.cpp
+ 2762  git add test_assimp.cpp
+ 2763  git add main.cpp
+ 2764  git checkout -b karsten-progress-bar#39
+ 2765  git push -u origin karsten-progress-bar#39
+ 2766  make pathtracer && ./pathtracer -w 240 ./scenes/cornell_box.blend > /dev/null
+ 2767  git checkout -b karsten-furnance-test#22
+ 2768  git push -u origin karsten-furnance-test#22
+ 2769  git checkout -b karsten-furnace-test#22
+ 2770  git push origin :karsten-furnance-test#22
+ 2771  git push -u origin karsten-furnace-test#22
+ 2772  git branch -D karsten-furnance-test#22
+ 2773  git grep bg_color
+ 2774  ./pathtracer -w 300 ./scenes/furnace_test.blend | convert - furnace_test.png
+ 2775  ./pathtracer -w 300 --background=1 1 1 ./scenes/furnace_test.blend | convert - furnace_test.png
+ 2776  ls test
+ 2777  ls tests
+ 2778  make test_config
+ 2779  ./pathtracer -w 300 --background="1 1 1" ./scenes/furnace_test.blend | convert - furnace_test.png
+ 2780  ./raytracer -w 300 --background="0" ./scenes/cornell_box.blend | convert - cornell_box.png
+ 2781  ./pathtracer -w 300 --background="0" ./scenes/cornell_box.blend | convert - cornell_box.png
+ 2782  ./pathtracer -w 300 --background="1" ./scenes/furnace_test.blend | convert - furnace_test.png
+ 2783  ./pathtracer -w 100 --background="1" ./scenes/furnace_test.blend | convert - furnace_test.png
+ 2784  ./pathtracer -w 600 -p 128 --background="1" ./scenes/furnace_test.blend | convert - furnace_test.png
+ 2785  ./pathtracer -w 600 -p 128 -d 10 --background="1" ./scenes/furnace_test.blend | convert - furnace_test.png
+ 2786  ./pathtracer -w 600 -p 128 -d 10 -m 32 --background="1" ./scenes/furnace_test.blend | convert - furnace_test.png
+ 2787  ./pathtracer -w 600 -p 16 -d 10 -m 32 --background="1" ./scenes/furnace_test.blend | convert - furnace_test.png
+ 2788  ./test_assimp ./scenes/furnace_test.blend
+ 2789  ./pathtracer -w 600 -p 16 -d 10 -m 2 --background="1" ./scenes/furnace_test.blend | convert - furnace_test.png
+ 2790  git add tests/test_config.cpp
+ 2791  ./pathtracer -w 600 -p 128 -d 10 -m 2 --background="1" ./scenes/furnace_test.blend | convert - furnace_test.png
+ 2792  ./pathtracer -w 600 -p 1 -d 10 -m 2 --background="1" ./scenes/furnace_test.blend | convert - furnace_test.png
+ 2793  ./pathtracer -h
+ 2794  ./pathtracer -w 300 --background="1 1 1" ./scenes/cornell_box.blend | convert - cornell_box.png
+ 2795  ./pathtracer -w 600 -p 1 -d 10 -m 2 --background="1" --no-gamma-correction ./scenes/furnace_test.blend
+ 2796  ./pathtracer -w 600 -p 1 -d 10 -m 2 --background="1" --no-gamma-correction ./scenes/furnace_test.blend | convert - furnace_test.png
+ 2797  cd ~/Documents/BtSync/Dropbox/Bewerbungen
+ 2799  ./pathtracer -w 600 -p 32 -d 3 -m 2 --background="1" --no-gamma-correction ./scenes/furnace_test.blend | convert - furnace_test.png
+ 2800  ./pathtracer -w 600 -p 32 -d 3 -m 2 --background="1" -a 1.777777 --no-gamma-correction ./scenes/furnace_test.blend | convert - furnace_test.png
+ 2801  ./pathtracer -w 600 -p 128 -d 3 -m 2 --background="1" -a 1.777777 --no-gamma-correction ./scenes/furnace_test.blend > furnace_test.pbm
+ 2802  ./pathtracer -w 600 -p 512 -d 3 -m 2 --background="1" -a 1.777777 --no-gamma-correction ./scenes/furnace_test.blend > furnace_test.pbm
+ 2803  open furnace_test.p
+ 2804  ./pathtracer -w 600 -p 1024 -d 3 -m 2 --background="1" -a 1.777777 --no-gamma-correction ./scenes/furnace_test.blend > furnace_test.pbm
+ 2805  convert furnace_test.pbm furnace_test.png
+ 2806  open furnace_test.png
+ 2807  mv furnace_test.png scenes
+ 2808  git add scenes/furnace_test.blend
+ 2809  git add scenes/furnace_test.png
+ 2810  vim main.
+ 2811  make
+ 2812  make pathtracer
+ 2813  ./pathtracer ./scenes/cornell_box.blend| convert - cornell_box.png
+ 2814  git pull
+ 2815  git checkout -b karsten-badge#42
+ 2816  git push -u origin karsten-badge#42
+ 2817  git checkout -b karsten-highlight-meshes#44
+ 2818  git push -u origin karsten-highlight-meshes#44
+ 2819  make raycaster
+ 2820  ./raycaster -h
+ 2821  ./raycaster scenes/cornell_box.blend 600 | convert - cornell_box.png
+ 2822  cp raycaster.cpp radiosity.cpp
+ 2823  ./radiosity scenes/cornell_box.blend 600 | convert - cornell_box.png
+ 2824  vim main.cpp
+ 2825  vim raycaster.cpp
+ 2826  cp raytracer.cpp radiosity.cpp
+ 2827  make bootstrap
+ 2828  ./radiosity scenes/cornell_box.blend --no-gamma-correction | convert - cornell_box.png
+ 2829  ./radiosity scenes/cornell_box.blend --no-gamma-correction -p 1 | convert - cornell_box.png
+ 2830  ./radiosity scenes/cornell_box.blend --no-gamma-correction -p 1 -w 1024 | convert - cornell_box.png
+ 2831  rm :w
+ 2832  git add Makefile radiosity.cpp
+ 2833  ssh pi@http://192.168.178.27/
+ 2834  make clean
+ 2835  git grep unordered
+ 2836  ./radiosity scenes/cornell_box.blend | convert - cornell_box.png
+ 2837  make radiosity && ./radiosity scenes/cornell_box.blend | convert - cornell_box.png
+ 2838  ./radiosity scenes/stanford_dragon.blend | convert - dragon.png
+ 2839  open dragon.png
+ 2840  python -version
+ 2841  python -v
+ 2842  python --version
+ 2843  pyenv -h
+ 2844  cd ../.dotfiles
+ 2845  ls ruby
+ 2846  brew install pip
+ 2847  cd ../Downloads
+ 2848  wget https://bootstrap.pypa.io/get-pip.py
+ 2849  python get-pip.py
+ 2850  sudo python get-pip.py
+ 2851  pip -h
+ 2852  cd ../Do
+ 2853  cd ../Documents
+ 2854  mkdir thread-interview
+ 2855  echo $PYTHONPATH
+ 2856  mkdir lib
+ 2857  export PYTHONPATH=$PYTHONPATH:./lib
+ 2858  python main.py
+ 2859  ls lib
+ 2860  chmod +x main.py
+ 2861  python -h
+ 2862  cd Documents/rende
+ 2864  git add README.md
+ 2865  git cherry-pick be47757b95a292c6077ef58f5a96718ffc974eb7
+ 2866  ./main.py
+ 2867  mv ~/Downloads/world_map_small.txt .
+ 2868  mv ~/Downloads/world_map_medium.txt .
+ 2869  mv ~/Downloads/description.txt
+ 2870  mv ~/Downloads/description.txt.
+ 2871  mv ~/Downloads/description.txt .
+ 2872  git clone https://github.com/blacklab/thread-interview
+ 2873  mv thread-interview thread-interview_b
+ 2874  git clone https://github.com/blacklab/thread-interview.git
+ 2875  mv thread-interview_b/* thread-interview/
+ 2876  rm -r thread-interview_b
+ 2877  vim .git
+ 2878  vim .gitignore
+ 2879  git add lib
+ 2880  git add main.py description.txt world_map_*
+ 2881  cd ../
+ 2882  cd thread-interview
+ 2883  vim main.py
+ 2884  python main.py 1 2 3
+ 2885  git add main.py
+ 2886  python main.py 1
+ 2887  python main.py --world world_map_small.tx 2
+ 2888  python
+ 2889  cd Documents/thread-interview
+ 2890  python main.py --world world_map_small.txt 2
+ 2891  python main.py --world world_map_small.txt 20000
+ 2892  python main.py --world world_map_medium.txt 500
+ 2893  python main.py --world world_map_small.txt 4
+ 2894  python main.py -h
+ 2895  python main.py --verbose
+ 2896  python main.py --verbose --world world_map_small.txt 5
+ 2897  python main.py --world world_map_small.txt 5
+ 2898  wc -l world_map_medium.txt
+ 2899  python main.py --verbose --world world_map_medium.txt 200 | grep trapped
+ 2900  python main.py --world world_map_medium.txt 1
+ 2901  python main.py --world world_map_medium.txt 2
+ 2902  python main.py --world world_map_medium.txt 100
+ 2903  python main.py --world world_map_medium.txt 200
+ 2904  git mv main.py alien_invasion.py
+ 2905  chmod +x alien_invasion.py
+ 2906  ./alien_invasion.py
+ 2907  ./alien_invasion.py -h
+ 2908  git branch
+ 2909  git checkout karsten-highlight-meshes#44
+ 2910  git stash --list
+ 2911  git stash list
+ 2912  make clean && make radiosity
+ 2913  vim radiosity
+ 2914  ./radiosity scenes/cornell_box.blend| convert - cornell_box.png
+ 2915  ./radiosity scenes/cornell_box.blend -t4 | convert - cornell_box.png
+ 2916  open scenes/stanford_dragon.blend
+ 2917  ./radiosity scenes/stanford_dragon -t4 -a1.7777777 | convert - cornell_box.png
+ 2918  ./radiosity -h
+ 2919  ./radiosity scenes/stanford_dragon -t4 -a1.7777777
+ 2920  ./radiosity scenes/stanford_dragon.blend -t4 -a1.7777777 | convert - cornell_box.png
+ 2921  ./radiosity scenes/stanford_dragon.blend -t 4 -a 1.7777777 -w 1080 | convert - cornell_box.png
+ 2922  open cornell_box.png
+ 2923  ./radiosity scenes/stanford_dragon.blend -t 4 -a 1.7777777 -w 1080 | convert - stanford_dragon.png
+ 2924  open stanford_dragon.p
+ 2925  ./radiosity scenes/stanford_dragon.blend -t 4 -a 1.7777777 -w 1080 --mesh-offset=1.0 | convert - stanford_dragon.png
+ 2926  ./radiosity scenes/stanford_dragon.blend -t 4 -a 1.7777777 -w 1080 --mesh-offset=0.25 | convert - stanford_dragon.png
+ 2927  ./radiosity scenes/stanford_dragon.blend -t 4 -a 1.7777777 -w 1080 --mesh-offset=0.05 | convert - stanford_dragon.png
+ 2928  ./radiosity scenes/stanford_dragon_closeup.blend -t 4 -a 1.7777777 -w 1080 --mesh-offset=0.05 | convert - stanford_dragon.png
+ 2929  ./radiosity scenes/stanford_dragon_closeup.blend -t 4 -a 1.7777777 -w 1080 --mesh-offset=0.5 | convert - stanford_dragon.png
+ 2930  git diff
+ 2931  ls scenes
+ 2932  ./radiosity scenes/stanford_dragon_closeup.blend -t 4 -a 1.7777777 -w 3480 | convert - stanford_dragon.png
+ 2933  open scenes/cornell_box_pathtrace_3480_4_128.png
+ 2934  cd ../thread-interview
+ 2935  git checkout -b karsten
+ 2936  git push origin karsten
+ 2937  git checkout master
+ 2938  git reset --hard 2207c0de27bf7fe26abd9f00d6304520dde2f8df
+ 2939  git push -f
+ 2940  cd ../renderer
+ 2941  ssh pi@192.168.178.27
+ 2942  vim radiosity.cpp
+ 2943  git fetch origin
+ 2944  git merge origin/master
+ 2945  vim Makefile
+ 2946  vim lib/types.h
+ 2947  make clean && make
+ 2948  make tests
+ 2949  make test
+ 2950  git statua
+ 2952  make radiosity
+ 2953  ./radiosity scenes/stanford_dragon_closeup.blend -a 1.77777 -w 3480 | convert - stanford_dragon.png
+ 2954  ./radiosity scenes/stanford_dragon_closeup.blend -a 1.77777 -w 3480 -t 4| convert - stanford_dragon.png
+ 2955  open stanford_dragon.png
+ 2956  git add radiosity.cpp
+ 2957  mv ~/Downloads/zsh-history-substring-search.zsh.txt zsh-history-substring-search.zsh
+ 2958  vim zshrc.symlink
+ 2959  exi
+ 2960  bindkey "$terminfo[cuu1]" history-substring-search-up
+ 2961  bindkey "$terminfo[cud1]" history-substring-search-down
+ 2962  vim README.md
+ 2963  ös bin
+ 2964  ls bin
+ 2965  ls script
+ 2966  less script/bootstrap
+ 2967  less script/install
+ 2968  cd zsh
+ 2969  vim config.zsh
+ 2970  source
+ 2972  git add zsh/config.zsh zsh/zsh-history-substring-search.zsh
+ 2974  git fetch
+ 2975  git stash
+ 2976  git rebase
+ 2977  git stash pop
+ 2981  vim vim/install.sh
+ 2984  ls vim/colors
+ 2985  which sh
+ 2986  tmux a
+ 2987  killall tmux;
+ 2988  echo $0
+ 2990  vim tmux/tmux.conf.symlink
+ 2991  dot
+ 2993  vim bin/dot
+ 2994  vim homebrew/install.sh
+ 2995  ./script/install
+ 2996  exit
+ 3002  ls zsh
+ 3003  vim script/install
+ 3004  ./script/bootstrap
+ 3005  vim
+ 3006  ls vim
+ 3007  ls homebrew
+ 3008  ls -lah ../
+ 3009  tmux new
+ 3010* cd .dotfiles
+ 3011* git status
+ 3012* git add -u
+ 3013* git log
+ 3014* git commit
+ 3015  cd Documents/renderer
+ 3016* git push
+ 3017* cd ~/Documents/renderer
+ 3019* R
+ 3020* (R)
+ 3022* history --help
+ 3023* man history
+ 3025* history -h
+ 3026* cd ..
+ 3027* git clone git@github.com:blacklab/zsh-history-substring-search.git
+ 3028* cd zsh-history-substring-search
+ 3029* ls
+ 3030* vim zsh-history-substring-search.zsh
+ 3031  cd ../zsh-history-substring-search
+ 3032  history
+ 3033  history i
+ 3034  history (R)
+ 3035  history R
+ 3036  (k0a)history
+ 3037  (k0a)history[(R)]
+ 3039  history 20
+ 3040  history 1
+ 3041  history 3000
+ 3042  man fc
+ 3043  fc -h
